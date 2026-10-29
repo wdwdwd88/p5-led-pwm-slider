@@ -14,14 +14,6 @@
 
 ![프리칭 연결도](images/circuit.png)
 
-| 부품 | Arduino 핀 | 비고 |
-|---|---|---|
-| LED 1 (ON/OFF) | D8 → 220Ω → LED(+), LED(−) → GND | 디지털 출력 |
-| LED 2 (밝기 조절) | D9 → 220Ω → LED(+), LED(−) → GND | PWM 출력 (`~` 핀) |
-| 푸시 버튼 | D2 ↔ GND | `INPUT_PULLUP`, 외부 인터럽트 |
-| 가변저항 | 양 끝: 5V / GND, 가운데: A0 | 아날로그 입력 |
-| I2C LCD | SDA → A4, SCL → A5, VCC → 5V, GND → GND | |
-
 ## 2. 동작 원리
 
 ### 통신 방식
