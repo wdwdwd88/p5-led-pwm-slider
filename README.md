@@ -18,10 +18,6 @@
 
 ### 통신 방식
 
-https://github.com/user-attachments/assets/0efe1447-6e3e-481e-ad5f-3ca78ed89924
-
-
-
 | 방향 | 메시지 | 의미 |
 |---|---|---|
 | p5 → Arduino | `ON` / `OFF` | D8 LED 켜기 / 끄기 |
