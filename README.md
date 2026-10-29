@@ -18,10 +18,9 @@
 
 ### 통신 방식
 
-```
-[p5.js 슬라이더 0~255] --"PWM:128\n"--> [Arduino] --analogWrite(9, 128)--> [D9 LED]
-                         <--"PWM: 128"--  (적용한 값을 다시 알려줌)
-```
+https://github.com/user-attachments/assets/0efe1447-6e3e-481e-ad5f-3ca78ed89924
+
+
 
 | 방향 | 메시지 | 의미 |
 |---|---|---|
@@ -106,6 +105,10 @@ function sendPwm() {
 | 슬라이더 0 | 슬라이더 128 | 슬라이더 255 |
 |---|---|---|
 | ![0](images/pwm-0.jpg) | ![128](images/pwm-128.jpg) | ![255](images/pwm-255.jpg) |
+
+
+https://github.com/user-attachments/assets/51e1bbed-6724-4017-a5c1-6f3dbfa5fd1b
+
 
 ## 5. 고찰
 
